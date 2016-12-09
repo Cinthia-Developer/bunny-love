@@ -1,4 +1,4 @@
-body{background-color: #ecf7fb; text-align: center;}
+body{background-color: #ecf7fb; text-align: center; font-family: Baloo Paaji;}
 /*---------------------------------------header------------------------------------*/
 header{text-align: center;}
 .navbar-default{background-color: #037f99; border: 1px solid #037f99; margin: 0;}
@@ -30,10 +30,12 @@ header{text-align: center;}
 footer{background-color:#037f99;}
 footer p{ color: white; margin: 40px auto; font-size: 20px;}
 /*---------------------------------------@media------------------------------------*/
+@media screen and (min-width:768px) and (max-width:992px){.conejito{width: 100%;}}
 @media screen and (max-width:768px){
     .cuadro{width: 100%; padding: 50px; margin: 30px auto;}
     .hero h1{font-size: 30px;}
     .blanco, .azul{padding: 10px 0;}
     .cuadro1{margin: 10px auto; width: 100%;}
     .cuadro2{width: 100%;}
+    .aside{display: none;}
 }

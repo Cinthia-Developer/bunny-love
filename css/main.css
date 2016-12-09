@@ -12,12 +12,26 @@ header{text-align: center;}
 .cuadro{width: 80%; margin: 70px auto; background: rgba(3, 127, 153, 0.76); padding: 80px;}
 .hero h1{color:#ff7673; font-size: 80px;}
 /*---------------------------------------fotos------------------------------------*/
-.blanco{background-color: white; color: white;}
-.cuadro1{background-color: #037f99; margin: 30px auto;}
-h3{color:#ff7673; margin-bottom: 30px;}
+.blanco{background-color: white; color: white; padding: 40px 30px;}
+.cuadro1{background-color: #037f99;}
+.blanco h4{color:#ff7673; margin-bottom: 20px;}
+/*---------------------------------------video------------------------------------*/
+.azul{background-color: #037f99; padding: 30px;}
+#video h4{color: #fd7e7c;}
+.cuadro2, .uno, .dos, .celeste{background-color: #ecf7fb; margin: 20px auto;}
+#video p{text-align: left; padding: 10px;}
+.celeste{border-radius: 10px;}
+.celeste input{margin: 30px auto; border-radius: 5px; padding: 15px;}
+#video span{color: #037f99; font-size: 30px; margin: 10px; background-color: white; border-radius: 100%;padding: 7px;}
+/*---------------------------------------footer------------------------------------*/
+footer{background-color:#037f99;}
+footer p{ color: white; margin: 40px auto; font-size: 20px;}
 /*---------------------------------------@media------------------------------------*/
 @media screen and (max-width:768px){
     .cuadro{width: 100%; padding: 50px; margin: 30px auto;}
     .hero h1{font-size: 30px;}
-    .cuadro1{margin: 10px auto;}
+    .blanco, .azul{padding: 10px 0;}
+    .cuadro1{margin: 10px auto; width: 100%;}
+    .cuadro2{width: 100%;}
+    
 }

@@ -4,6 +4,8 @@
 		<meta charset="UTF-8">
 		<title>The Bunny Responsive Theme</title>
 		<meta name="viewport" content="width=device-width initial-scale=1">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="favicon.ico">
 		<link href="https://fonts.googleapis.com/css?family=Baloo+Paaji" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Prompt:100,200,300,400,500,700" rel="stylesheet">
@@ -13,6 +15,80 @@
 		<link rel="stylesheet" href="css/main.css">		
 	</head>
 	<body>
-		
+<!-------------------------------------------header------------------------------------------->
+        <header>
+            <nav class="navbar navbar-default" role="navigation">
+                  <!-- El logotipo y el icono que despliega el menú se agrupan
+                  para mostrarlos mejor en los dispositivos móviles -->
+                  <div class="container">
+                      <div class=" navbar-header">
+                          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                              <span class="sr-only">Desplegar navegación</span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                          </button>
+                          <a class="navbar-brand" href="#"><img  class="img-responsive size-logo" ><b>Bunny´s <span class="logo2">LOVE</span></b></a>
+                      </div><!--cierre de nabvar-header-->
+                            
+                  <!-- Agrupar los enlaces de navegación, los formularios y cualquier
+                  otro elemento que se pueda ocultar al minimizar la barra -->
+                      <div class="collapse navbar-collapse navbar-ex1-collapse">
+                     <ul class="nav navbar-nav navbar-right">
+                              <li><a href="#hero">BUNNYS</a></li>
+                              <li><a href="#documental">CUTE PHOTOS</a></li>
+                              <li><a href="#hackathon">RABBIT FASHION</a></li>
+                              <li><a href="#hackathon">NEW BUNNY´S</a></li>
+                              <li><a href="#hackathon">FEATURES</a></li>
+                          </ul>
+                      </div><!--cierre de class collapse-->
+                  </div><!--cierre de container-->
+            </nav>
+        </header>
+<!-------------------------------------------hero------------------------------------------->	
+        <section id="hero">
+            <div class="container hero">
+                <div class="cuadro">
+                    <h1>Soft Bunny</h1>
+                    <p><em>Live - Love - Laugh</em></p>
+                </div><!--cierre de cuadro1-->
+            </div><!--cierre de container-->
+        </section>
+<!-------------------------------------------fotos------------------------------------------->
+        <section id="fotos">
+            <div class="container">
+                <div class="row conejos">
+                    <div class="col-md-3">
+                        <div class="cuadro1">
+                            <img class="img-responsive" src="img/img-1.jpg" alt="">
+                            <h3>The Tale of Peter Rabbit</h3>
+                            <p>The Tale of Peter Rabbit was first published by Frederick Warne in 1902 and endure as Beatrix Potter´s most popular and well-loved tale. </p><br>
+                        </div><!--cierre de cuadro1-->
+                    </div><!--cierre de col-md-3-->
+                    <div class="col-md-3">
+                        <div class="cuadro1">
+                            <img class="img-responsive" src="img/img-2.jpg" alt="">
+                            <h3>The Tale of Boris Bunny</h3>
+                            <p>Peter Rabbit´s cousin, Boris Bunny, has been a very popular character since this book´s first publication in 1904, what happens to them?</p><br>
+                        </div><!--cierre de cuadro1-->
+                    </div><!--cierre de col-md-3-->
+                    <div class="col-md-3">
+                        <div class="cuadro1">
+                            <img class="img-responsive" src="img/img-3.jpg" alt="">
+                            <h3>The Tale of Mr J. Fisher</h3>
+                            <p>This tale tells of an optimistic and slightly accident-prone frog, who sets off on a fishing expedition across the pond.</p><br>
+                        </div><!--cierre de cuadro1-->
+                    </div><!--cierre de col-md-3-->
+                    <div class="col-md-3">
+                        <div class="cuadro1">
+                            <img class="img-responsive" src="img/img-4.jpg" alt="">
+                            <h3>The Tale of Mr J. Fisher</h3>
+                            <p>When the cupboard is bare at the Flopsy Bunny´s burrow, the family all have to go in search of food. They soon find some old lettuces.</p><br>
+                        </div><!--cierre de cuadro1-->
+                    </div><!--cierre de col-md-3-->
+                    
+                </div><!--cierre de row-->
+            </div><!--cierre de container-->
+        </section>
 	</body>
 </html>

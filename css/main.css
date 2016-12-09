@@ -1,0 +1,23 @@
+body{background-color: #ecf7fb; text-align: center;}
+*{outline: 1px solid red;}
+/*---------------------------------------header------------------------------------*/
+header{text-align: center;}
+.navbar-default{background-color: #037f99; border: 1px solid #037f99; margin: 0;}
+.navbar-default .navbar-brand {color: white;}
+.navbar-default .navbar-brand .logo2{color: #ff7673;}
+.navbar-default .navbar-nav>li>a{color: white;}
+.navbar-default .navbar-nav>li>a:hover{background-color: white; color: #ff7673;}
+/*---------------------------------------header------------------------------------*/
+.hero{ background-image: url(../img/img-1.jpg); background-size:cover; background-repeat: no-repeat; color: white;}
+.cuadro{width: 80%; margin: 70px auto; background: rgba(3, 127, 153, 0.76); padding: 80px;}
+.hero h1{color:#ff7673; font-size: 80px;}
+/*---------------------------------------fotos------------------------------------*/
+.conejos{background-color: white; color: white;}
+.cuadro1{background-color: #037f99; margin: 30px auto;}
+h3{color:#ff7673; margin-bottom: 30px;}
+/*---------------------------------------@media------------------------------------*/
+@media screen and (max-width:768px){
+    .cuadro{width: 100%; padding: 50px; margin: 30px auto;}
+    .hero h1{font-size: 30px;}
+    .cuadro1{margin: 10px auto;}
+}

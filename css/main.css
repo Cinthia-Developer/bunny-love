@@ -1,5 +1,4 @@
 body{background-color: #ecf7fb; text-align: center;}
-*{outline: 1px solid red;}
 /*---------------------------------------header------------------------------------*/
 header{text-align: center;}
 .navbar-default{background-color: #037f99; border: 1px solid #037f99; margin: 0;}
@@ -23,6 +22,10 @@ header{text-align: center;}
 .celeste{border-radius: 10px;}
 .celeste input{margin: 30px auto; border-radius: 5px; padding: 15px;}
 #video span{color: #037f99; font-size: 30px; margin: 10px; background-color: white; border-radius: 100%;padding: 7px;}
+/*---------------------------------------imagen-conejo------------------------------------*/
+.imagen-conejo img{width: 100px; height: 80px;}
+.imagen-conejo ul{padding: 0px; display: flex; overflow: hidden; list-style: none;}
+.imagen-conejo li{margin: 20px 30px;}
 /*---------------------------------------footer------------------------------------*/
 footer{background-color:#037f99;}
 footer p{ color: white; margin: 40px auto; font-size: 20px;}
@@ -33,5 +36,4 @@ footer p{ color: white; margin: 40px auto; font-size: 20px;}
     .blanco, .azul{padding: 10px 0;}
     .cuadro1{margin: 10px auto; width: 100%;}
     .cuadro2{width: 100%;}
-    
 }
